@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPWISE!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1e1e6;
+            color: #555;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+        }
+        header {
+            color: #d68fae;
+            padding: 20px;
+            font-size: 65px;
+            font-weight: bold;
+        }
+        .tagline {
+            color: #d68fae;
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .arrow-symbol {
+            color: #333333;
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .logo {
+            width: 150px;
+            margin: 20px auto;
+        }
+    </style>
+    <script>
+        document.addEventListener("keydown", function(event) {
+            if (event.key === "ArrowRight") {
+                window.location.href = "shopwise.html";
+            }
+        });
+    </script>
+</head>
+<body>
+    <header>SHOPWISE!</header>
+    <img src="logo.jpg" alt="Shopwise Logo" class="logo">
+    <div class="tagline">Your Ultimate Shopping Guide</div>
+    <div class="tagline">Find Best Deals and Discounts</div>
+    <p><span class="arrow-symbol">→</span></p>
+</body>
+</html>
