@@ -15,8 +15,8 @@
         }
 
         header {
-            background-color: #ba7e99;
-            padding: 20px;
+            background-color: #ff7eb3;
+            padding: 30px;
             font-size: 24px;
             font-weight: bold;
         }
@@ -25,21 +25,21 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            padding: 20px;
+            padding: 30px;
         }
 
         section {
         
-           background-color:#ba7e99;
+           background-color:#ff7eb3;
             margin: 10px;
-            padding: 20px;
+            padding: 30px;
             width: 40%;
             border-radius: 10px;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
         }
 
         .back-button {
-            background-color: #ba7e99;
+            background-color: #ff7eb3;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -50,11 +50,11 @@
         }
 
         .back-button:hover {
-            background-color: #ba7e99;
+            background-color: #ff7eb3;
         }
 
         footer {
-            background-color: #ba7e99;
+            background-color: #ff7eb3;
             padding: 10px;
             margin-top: 20px;
         }
@@ -65,26 +65,35 @@
         <h1>Shopping Guide</h1>
     </header>
 
+    <style>
+        section {
+            font-weight: bold;
+            font-size: 1.2em; /* Increases font size slightly */
+        }
+    </style>
+    
     <main>
         <section id="food" onclick="handleFoodClick()">
             <h2>Food</h2>
             <p>Enjoy the best dining spots and food deals.</p>
         </section>
-
+    
         <section id="dresses">
             <h2>Dresses</h2>
             <p>Find the latest trends and best deals on dresses.</p>
         </section>
-
+    
         <section id="footwear">
             <h2>Footwear</h2>
             <p>Explore comfortable and stylish footwear options.</p>
         </section>
-
+    
         <section id="cosmetics">
             <h2>Cosmetics</h2>
             <p>Discover top beauty products and skincare essentials.</p>
         </section>
+    </main>
+    
     </main>
 
     <button class="back-button" onclick="location.href='index.html'">Back</button>
